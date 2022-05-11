@@ -1,0 +1,1 @@
+Merge Conflict is that when two people make different changes to the same file and other person may not have the latest changes done and when he do the git push origin then it will raise a merge conflict then You must resolve all merge conflicts by doing pull request on GitHub and recommit the changes now.
