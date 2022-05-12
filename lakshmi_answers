@@ -8,3 +8,4 @@ git push -transmit local branch commits to the remote repositary
 git pull-fetch and download content from remote repositary and immediatly update the local repositary to match the content
 git stash-
 git pull - used to get latest changes from remote repository to local.
+git checkout master  # go back to the master branch
