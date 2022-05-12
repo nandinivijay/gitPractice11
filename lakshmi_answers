@@ -10,3 +10,4 @@ git stash-
 git pull - used to get latest changes from remote repository to local.
 git checkout master  # go back to the master branch
 This is a test to check if updates from local are being pushed to GitHub.
+i am pushing to local
