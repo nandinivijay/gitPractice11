@@ -7,3 +7,4 @@ git status-shows modified file inthe working directory .staged for next commit
 git push -transmit local branch commits to the remote repositary
 git pull-fetch and download content from remote repositary and immediatly update the local repositary to match the content
 git stash-
+git pull - used to get latest changes from remote repository to local.
