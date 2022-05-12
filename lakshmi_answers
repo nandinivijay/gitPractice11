@@ -9,3 +9,4 @@ git pull-fetch and download content from remote repositary and immediatly update
 git stash-
 git pull - used to get latest changes from remote repository to local.
 git checkout master  # go back to the master branch
+hello
