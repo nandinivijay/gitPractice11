@@ -4,9 +4,19 @@ git clone (url)-retrive an entire repositaryfrom a hosted location   throw url
 git add .-it will add file to the stagging
 git commit -m "description"-commit your staged content  as new commit
 git status-shows modified file inthe working directory .staged for next commit
-git push -transmit local branch commits to the remote repositary
-git pull-fetch and download content from remote repositary and immediatly update the local repositary to match the content
+git push  origin-transmit local branch commits to the remote repositary(git push origin main)
+git pull origin -fetch and download content from remote repositary and immediatly update the local repositary to match the content(git pull origin main)
 git stash-
 git pull - used to get latest changes from remote repository to local.
 git checkout master  - go back to the master branch
+2. What are cucumber options?
+features="path of the features",
+glue="path of the stepdefinition",
+monochrome=true or false
+dryrun=true or false
+strict=true or false
+plugin=({"pretty","json:./targetoutput/report.json","junit:./targetoutput/report.xml","html:./targetoutput/report.html","report:./targetoutput/report.txt"})
+tags={"@smoketest","@sanitytest"}-and condition 
+tags={"@smoketets,@sanitytest"}-or condition
+
 
