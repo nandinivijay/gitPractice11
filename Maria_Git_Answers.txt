@@ -26,3 +26,4 @@ git push origin <main>
 git pull	: Used to bring down/pull the changes from remote repostorty to local repository
 git pull origin <main> 
 
+git diff --staged HEAD <filename>
