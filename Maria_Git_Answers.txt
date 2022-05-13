@@ -1,0 +1,28 @@
+1. What are the basic git commands?
+git config  	:to update user id and pwd for the 1st time
+git config --global user.email "email id"
+git config --global user.name "user name"
+
+git init  	: To initalizse locan git repositry
+
+git clone  	: To clone the remote github repository into our local repostiry
+git clone  "Ghithub main URL"
+
+git add  	: To Stage the changed files/pgms
+Git add .   --> all the files will be staged into local repository
+
+git commit   	: To commit the changes into local repository
+git commit -m "message"
+
+git status 	: To know the file is staged or not
+
+git log		: It will show all the history of commit events/logs
+
+git checkout	: to use discard/ignore un-staged changes in the tracked files of working dir
+
+git push	: Used to push the changes from local repostorty to remote repository
+git push origin <main> 
+
+git pull	: Used to bring down/pull the changes from remote repostorty to local repository
+git pull origin <main> 
+
