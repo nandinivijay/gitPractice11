@@ -69,3 +69,5 @@ it does not contain any concrete methods
 both interface and abstarction we cannot create objects .
 in selenium we use wait interface, takescreenshot,javascript executor, seleniumwebdriver,iretryanalyzer e.t.c
 12 what is stashing
+git stash is used to save some uncommited files  locally  in the hideen area  then you can do some other work  on other branches  and then you can come back and work on stash file again.
+
