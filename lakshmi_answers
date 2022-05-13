@@ -22,4 +22,50 @@ tags={"@smoketets,@sanitytest"}-or condition
 3. What is the difference between find element and find elements
 driver.find element will find only single webelement and driver.find element will find list of all webelemnts  that matches perticular locator
 we will get "no such element exception" when we dont find single webelement whereas we will get "empty array" when we dont find list of webelements.
-4.
+4.4. What are the different annotations that you would use in a cucumber framework
+@Before,@After,@smoketest,@sanitytest,@Beforestep,@Afterstep,@report:./targetoutput/report.txt
+5. What are the different design patterns that you know
+pageobjectmodel
+6. What is a final keywprd
+final is a keyword once declared we cannot change  we can create final variables which we cannot change,final class can not be extended, final methods cannot be over ridden
+
+7 what is the signifance of super keyword?
+
+super is akeyword which is used to call immediate parent class methods and also used to call parent class constructor  it is used to eleminate confusion between super class and subclass having same name methods
+super is also used to call parentclass instance variables
+8. Explain differnt oops concpets with their use cases
+inheritance:inherting properties from one class to another class with extends keyword
+1.single inheritance:one class extends another class ex:admin class extends testbase class
+2.multlevel inheritance:users class extends admin class and admin class extends base class 
+3.hierarchy inheritance:two  sub classes extend one super class
+4.multiple inheritance:java doesnot supports multiple inheritance
+2.polymorphism:one object taking many forms is called polymorphism
+method overloading:two methods having same name but different number of perameters
+actions class and impicit wqit are examples of method overloading
+method overridding:if sub class extendsd parent class the sub class has same nme as of parent class then sub class over rides parent class methods
+ex:navigate and get 
+3. abstraction:abstraction is nothing but hidding immplementation part and showing end results
+ex:xpath, ids ect where we write xpath in pages and we  call them intest but we dont see the implementation part
+2 types of abstarctions
+1. concretemethods-methods with body.
+2.abstract  methods:methods without body.
+4.encapsulation:binding code and data together is called encapsulation
+ex:in pag object model we create pages and tests in pages we write xpath and methods and we also use page factory to initalize those methods .
+
+
+
+9. WHAT IS THE DIFFERENCE BETWEEN PUSH AND PULL:
+ the git push command is used to send the commits from  your  local repositary to the central  repository wher as pull coomand is used to pull data from central repository
+10. What is a interface in java 
+interface is ablue print of class
+it does noit have any return type
+we cannot create object of interface 
+we have to use implements keyword to implemet interface
+100% abstraction is possible in interface 
+it does not contain any concrete methods
+
+11. How interface differs from abstarct class
+100% abstraction is poosible only in interface, abstract class can have both concrete and abstarct methods  and also abstract should have atleast one create method
+both interface and abstarction we cannot create objects .
+in selenium we use wait interface, takescreenshot,javascript executor, seleniumwebdriver,iretryanalyzer e.t.c
+12 what is stashing
