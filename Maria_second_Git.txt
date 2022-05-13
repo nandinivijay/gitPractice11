@@ -1,3 +1,1 @@
-his signal is the :
-
-s is selenium automation tool
+selenium is a tool.
