@@ -19,4 +19,7 @@ plugin=({"pretty","json:./targetoutput/report.json","junit:./targetoutput/report
 tags={"@smoketest","@sanitytest"}-and condition 
 tags={"@smoketets,@sanitytest"}-or condition
 
-
+3. What is the difference between find element and find elements
+driver.find element will find only single webelement and driver.find element will find list of all webelemnts  that matches perticular locator
+we will get "no such element exception" when we dont find single webelement whereas we will get "empty array" when we dont find list of webelements.
+4.
