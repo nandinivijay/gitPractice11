@@ -1,0 +1,21 @@
+Design Pattern
+
+1.Page Object Model:
+
+The Page Object Model is a widely used object design pattern for structuring automation test code. Here, pages in the app are represented as Classes, and various UI elements of that pages are defined as variables.
+
+2.Singleton pattern:
+
+A Singleton class means only one instance of it can exist at any time.But why would you need this?
+
+Well it is very useful in a case when you need to use the same object across the whole framework. A Singleton class returns the same instance every time you try to instantiate an instance of the class. Think of it providing global access to a single object, for example, the log file object.
+
+
+Creating a singleton class consists of:
+
+1. Making the constructor of the Class private.
+
+2. Make a static reference of the class, as we want to make this available globally.
+
+3. Make a static method which returns an object of type class and it should also check whether class is already instan tiated once or not – if it’s not instantiated then it should instantiate that otherwise it can return reference of the class directly.
+
