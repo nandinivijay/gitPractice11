@@ -6,3 +6,5 @@ git config.
 git branch.
 git checkout.
 git merge.
+
+Commands
