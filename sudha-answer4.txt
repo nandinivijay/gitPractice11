@@ -1,0 +1,19 @@
+Cucumber Annotations
+
+@RunWith() annotation tells about the test runner class to start executing our tests.
+
+@CucmberOptions() annotation is used to set some properties for our cucumber test like feature file, step definition, etc.
+
+@Given: given specifies the pre-conditions. It is basically a known state.
+
+@When: This is used when some action is to be performed. 
+
+@Then: The expected outcome or result should be placed here. 
+
+@Before==>This will run before the every scenario.
+
+@After====>This will run after the every scenario.
+
+
+@Before(order = int) : This runs in increment order, means value 0 would run first and 1 would be after 0.
+@After(order = int) : This runs in decrements order, means apposite of @Before. Value 1 would run first and 0 would be after 1.

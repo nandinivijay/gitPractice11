@@ -1,0 +1,9 @@
+Difeerence between findElement and findElements
+
+findElement methos is used to access a single web element on a page.
+It returns the first matching element.
+It throws a NoSuchElementException exception when it fails to find the element.
+
+findElemnts method returns the list of all matching elements.
+findElements method return an empty list when the element is not avialale or does not exist on page.
+It does not throw NoSuchElementException.  

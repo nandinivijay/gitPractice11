@@ -1,0 +1,3 @@
+OOPS Concept Assignment:
+
+1.Adding Inheritance.

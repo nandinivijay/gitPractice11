@@ -1,0 +1,17 @@
+1. Create files with your name as prefix and answer these questions
+1. What are the basic git commands you know
+// Manjusha- answer 1
+2. What are cucumber options
+// Manjusha - answer 2
+
+3. What is the difference between find element and find elements
+4. What are the different annotations that you would use in a cucumber framework
+5. What are the different design patterns that you know
+6. What is a final keywprd
+7 what is the signifance of super keyword
+8. Explain differnt oops concpets with their use cases
+9. WHAT IS THE DIFFERENCE BETWEEN PUSH AND PULL
+10. What is a interface in java 
+11. How interface differs from abstarct class
+12 what is stashing
+

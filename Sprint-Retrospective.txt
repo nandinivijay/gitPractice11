@@ -1,0 +1,6 @@
+Spint Retrospective
+1.The last scrum ceremony is called the sprint retrospective. It occurs at the end of a sprint, after the review, and is usually an hour in duration. The retrospective includes the development team, scrum master and product owner.
+
+2.Because scrum is part of an agile process, it is all about change, which includes getting feedback and quickly acting on it. Scrum seeks continuous improvement and the retrospective is a method to make sure that the product and development culture is constantly improving.
+
+3.The retrospective is a way for the team to understand what has worked well and what didn’t come together over the previous sprint. 

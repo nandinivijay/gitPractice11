@@ -1,0 +1,50 @@
+Cucumber Options:
+
+1.DryRun====>Defaut value of dryRun value is false.If it is set as true , it means that cucumber  will  only check the step mentioned in the feature file have corresponding code witten in step definition file or not.Here, code inside the step definition method will not execute.
+the code inside the step definition method will execute when set to false.
+
+@CucumberOptions(
+		dryRun = true
+		)
+
+2.Plugin Option===>plugin option is used to specify different formatting options for the output reports.
+
+Pretty: Prints the Gherkin source with additional colors and stack traces for errors.
+
+Html format:
+@CucumberOptions(plugin ={"pretty" , "html:Folder_Name"}) 
+
+Json format:
+
+@CucumberOptions(plugin = {"pretty" ,
+                            "json:Folder_Name/cucumber.json"}) 
+
+Junit format:
+
+@CucumberOptions(plugin = {"pretty" ,
+                           "junit:Folder_Name/cucumber.xml"})
+
+we can also use these option together.
+
+@CucumberOptions(plugin = {"pretty" ,"html:Folder_Name" ,
+                           "json:Folder_Name/cucumber.json" ,
+                           "junit:Folder_Name/cucumber.xml"}) 
+
+3.Strict====>if strict option is set to false then at execution time if cucumber encounter any pending step or undefined steps then cuucmber does not fail the execution and undefined steps are skipped and BUILD is SUCCESSFUL.
+
+if the strict option is set to true then at the execution time if cucumber encounter any pending steps  or undefined steps then cucumber fail the execution andn indefined steps are markd as fail and BUILD is FAILURE.
+
+4.Monochrome====> This option can either set as true or false (default value is false). If it is set as true, it means that the console output for the Cucumber test are much more readable. And if it is set as false, then the console output is not as readable as it should be.
+
+5.Features====>Features options helps to locate the feature file in the project folder structure.
+All we need to do is to specift the folder path and cucumber will automatticaly  find all the .features extension files in the folder..
+
+6.Glue====>
+
+Glue is alos same like features option  but only difference is that it helps cucumber to locate STEP DEFINITION file.
+
+7.Tags====>The tags can be used when specifyinf what test to run.
+
+Running Scenarios with a Tag:
+Cucumber run scenarios with a particular tag.
+ tags ={“@smoketest“},...  ) 

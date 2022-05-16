@@ -1,0 +1,13 @@
+What are basic git commands?
+git init is used to create a new local repository.
+git clone is used to obtain a repository from an existing URL.
+git add and git commit===>git add==> This command adds a file to the staging area. we will do when we want to save our code to working directory to local repository.git add filename.txt then git commit -m "file is committed".
+git push command is uset to push our code to remote repository.
+git config --global  user.name “[name]” and git config –-global user.email “[email address]” ===>This command sets the author name and email address respectively to be used with your commits.
+git log is used to list the version history for the current branch.
+git pull====>This command fetches and merges changes on the remote server to working directory.
+git statsh:This command temporaily store all the modified tracked files.
+git branch [branch name]:This command creates a new branch.
+git checkout  [banch name]:This command is used to switch from one branch to another.
+git branch -d [branch name]:This command deletes the branch.
+git checkout -b [branch name]:This command creates a new branch and also switches to it.

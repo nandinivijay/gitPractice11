@@ -1,0 +1,5 @@
+Daily Scrum
+
+1.The daily scrum is, as it says, a daily occurrence, which usually takes place each morning with the development team, scrum master and product owner. The ceremony is short, usually 15 minutes, which is why it’s also called a standup meeting.
+git
+2.The great thing about the daily scrum is that is demands accountability. People report honestly on what they did, what they plan on doing and how they might be getting blocked in the process, and this is all done in front of their peers. Having to report in such a social setting sets up the team for success because it would be embarrassing to not be showing progress in front of others.
