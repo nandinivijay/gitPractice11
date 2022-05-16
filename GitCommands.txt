@@ -1,0 +1,14 @@
+Git Commands
+
+1.git init is used to create a new local repository.
+2.git clone is used to obtain a repository from an existing URL.
+3.git add and git commit===>git add==> This command adds a file to the staging area. we will do when we want to save our code to working directory to local repository.git add filename.txt then git commit -m "file is committed".
+4.git push command is uset to push our code to remote repository.
+5.git config --global  user.name “[name]” and git config –-global user.email “[email address]” ===>This command sets the author name and email address respectively to be used with your commits.
+6.git pull:This command fetches and merges changes on the remote server to working directory.
+7.git statsh:This command temporaily store all the modified tracked files.
+8.git branch [branch name]:This command creates a new branch.
+9.git checkout  [banch name]:This command is used to switch from one branch to another.
+10.git branch -d [branch name]:This command deletes the branch.
+11.git checkout -b [branch name]:This command creates a new branch and also switches to it.
+12.git statsh pop:restores files.
