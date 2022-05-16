@@ -1,0 +1,6 @@
+Sprint planning 
+
+This ceremony helps to set up the entire team for the coming sprint, creating a smooth pathway for a successful sprint. Sprint planning requires the participation of all the scrum roles: the development team, scrum master and the product owner. The planning, of course, is prior to the sprint. It typically lasts for an hour or two.
+
+
+The product owner comes to the meeting with a prioritized list of the product backlog items, which is presented to the group. The items on the list, which are also called user stories, are then discussed with the development team. Together, they estimate what it will take to complete the items on the list. From this information, the development team makes a sprint forecast. They will outline how much work the team can complete from the product backlog. This will be known as the sprint backlog.
