@@ -1,0 +1,7 @@
+git clone - this command will clone the repository to your local repo
+
+git init - this command will initialize the git path on your local repo
+
+git config --global user.name email - This command will set the user name and email to be used during commits
+
+git add <file name> - This command is used to stage the <file name> for commit on local repository
