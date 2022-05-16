@@ -1,0 +1,3 @@
+SprintPlanning:
+
+1.What is sprint planning?
