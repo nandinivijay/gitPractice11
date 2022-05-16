@@ -1,0 +1,5 @@
+Sprint Reveiw
+
+After the sprint has been completed, it’s time to get the team together to demo or showcase their work. Each team member reviews the newly developed features or whatever it was that they worked on during the sprint. This provides a space for the team to congratulate themselves on a successful sprint, which is important for morale. It also demonstrates the finished work for the entire team, so they can provide feedback and also get feedback from the stakeholders in the project.
+
+Here, unlike other ceremonies, the review can last as long as it takes to demo all the work done by the team. Again, the participants are the development team, scrum master and product owner, but also in this instance, other teams involved in the project and the stakeholders.
